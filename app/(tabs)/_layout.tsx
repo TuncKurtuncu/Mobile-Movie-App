@@ -14,8 +14,8 @@ const _layout = () => {
                 <>
                     <ImageBackground
                         source={images.highlight}
-                        className='flex flex-row w-full flex-1 min-w-[112px]
-                                min-h-16 mt-4 justify-center items-center
+                        className='flex flex-row w-full flex-1 min-w-[90px]
+                                min-h-12 mt-4 justify-center items-center
                                 rounded-full overflow-hidden'
                     >
                         <Image
@@ -52,12 +52,7 @@ const _layout = () => {
                 },
                 tabBarStyle:{
                     backgroundColor:'#0f0D23',
-                    borderRadius:50,
-                    marginHorizontal:20,
-                    marginBottom:36,
-                    height:52,
                     position:'absolute',
-                    borderWidth:1,
                     borderBlockColor:'#0f0D23'
 
                 }
